@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, boddy {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url('../imagens/tech.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main {
+    height: 100vh;
+    position: relative;
+    
+}
+
+section#telefone {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    height: 626px;
+    width: 311px;    
+    background:url('../imagens/frame-iphone.png') no-repeat;
+    
+}
